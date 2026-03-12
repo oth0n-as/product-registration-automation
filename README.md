@@ -1,6 +1,6 @@
 # product-registration-automation
 
-#README EN
+# en README (English)
 
 This project is a Python automation script that automatically registers products on a web platform.
 The script simulates user interaction with the system using PyAutoGUI and reads product data from a CSV dataset.
@@ -49,14 +49,22 @@ Each row represents a product that will be registered automatically in the syste
 6. Uses PyAutoGUI to fill the form fields.
 7. Submits each product.
 
+## How to Run
+
+1. Install dependencies
+pip install -r requirements.txt
+
+2. Run the script
+python main.py
+
 ## Note
 
 The automation uses fixed screen coordinates.  
-Because of that, the script may require adjusting mouse positions depending on screen resolutio
+Because of that, the script may require adjusting mouse positions depending on screen resolution
 
 # -------------- #
 
-#README PT-BR
+# br README (Português)
 
 Este projeto é um script de automação em Python que realiza o cadastro automático de produtos em um sistema web.
 O script simula a interação de um usuário com a interface do site utilizando a biblioteca PyAutoGUI e utiliza uma base de dados em formato CSV para preencher os campos do formulário automaticamente.
@@ -105,6 +113,14 @@ Cada linha representa um produto que será cadastrado automaticamente no sistema
 5. Percorre todos os produtos da base de dados.
 6. Utiliza o PyAutoGUI para preencher os campos do formulário.
 7. Realiza o cadastro de cada produto no sistema.
+
+## Como Executar
+
+1. Instalar as dependências
+pip install -r requirements.txt
+
+2. Executar o script
+python main.py
 
 ## Observação
 
